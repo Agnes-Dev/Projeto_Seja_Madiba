@@ -1,0 +1,258 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background-color: #120368;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #120368;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 2px solid rgb(8, 6, 143);
+    border-radius: 10px;
+    box-shadow: 5 5 10px rgba(54, 6, 143, 0.904);
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border: 5px solid rgb(35, 3, 110);
+    box-shadow: 0 0 500px rgba(29, 3, 102, 0.973);
+}
+
+.profile-photo img {
+    width: 15rem;/*100%*/
+    height: 15rem;/*120%*/
+    max-width: 100%;
+}
+
+.profile-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-details h2 {
+    margin: 0;
+}
+
+.profile-details p {
+    margin: 0;
+    color: #555;
+}
+
+.review-section {
+    text-align: center;
+}
+
+.review-section h3 {
+    margin-bottom: 10px;
+}
+
+.review-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.review-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.review-section button:hover {
+    background-color: #2980b9;
+} 
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+
+.profile-details h2 {
+    margin: 0 0 5px;
+    font-size: 24px;
+}
+
+.profile-details p {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(9, 7, 109);
+}
+
+.review-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.review-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #170569;
+    color: white;
+    cursor: pointer;
+}
+
+.review-section button:hover {
+    background-color: #090780;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 8px; 
+    display: block;
+    font-weight: bold;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    font-size: 25px;
+}
+
+.rating>label {
+    display: inline-block;
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.rating>input {
+    display: all;
+}
+
+.rating>label:before {
+    content: '\2605';
+    /* Unicode character for a star */
+}
+
+.rating>input:checked~label {
+    color: gold;
+}
+
+
+#name1,
+#email1 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.avaliação {
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+
+#logo {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.247);
+    border-radius: 100%;
+    border: 5px solid red;
+}
+
+img {
+    max-width: 170%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 244px;
+    background-color: #203370;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.247);
+}
+
+footer {
+    background-color: #203370;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 168px;
+    margin-top: 15px;
+}
+footer {
+    background-color: #203370;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 168px;
+    margin-top: 15px;
+}
+footer {
+    background-color: #203370;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 168px;
+    margin-top: 15px;
+}
+
+form {
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.247);
+}
+
+
+#name,
+#email {
+    text-align: justify;
+    border-radius: 10px;
+    padding: auto;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 20rem;
+    height: 5rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
